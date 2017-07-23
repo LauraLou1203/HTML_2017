@@ -1,6 +1,10 @@
 .active {
   text-decoration: underline;
 }
+
+.clickme, .hometitle {
+  color: rgb(224, 184, 184);
+}
 body, a {
   font-family:"American Typewriter", Futura,  sans-serif;
   font-size: 16px;
@@ -30,7 +34,7 @@ hr {
 .kasten {
   background-color: white;
   padding: 15px 0px 30px 0px;
-  margin: 50px;
+  margin: 30px;
   position: relative;
 }
 
