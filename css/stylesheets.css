@@ -1,3 +1,6 @@
+.active {
+  text-decoration: underline;
+}
 body, a {
   font-family:"American Typewriter", Futura,  sans-serif;
   font-size: 16px;
@@ -31,16 +34,26 @@ hr {
   position: relative;
 }
 
+.gallery {
+  width: 200px;
+  margin: 5px;
+}
+
 #laura {
+  width: 200px;
+  border-radius: 50%;
+  float: left;
+}
+
+.inhalt {
   width: 50%;
+  display: inline-block;
+}
+
+.aboutme {
+  margin-top: 50px;
 }
 
 a {
 text-decoration: none;
-}
-
-p {
-  font-family:"American Typewriter", Futura,  sans-serif;
-  text-align: center;
-
 }
