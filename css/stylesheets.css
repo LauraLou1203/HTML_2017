@@ -1,36 +1,46 @@
-* {
+body, a {
   font-family:"American Typewriter", Futura,  sans-serif;
   font-size: 16px;
   color: darkgrey;
-  border-bottom: 1px solid rgb(0,0,0);
   text-align: center;
 }
-*a {
 
+.hintergrund {
+  background-image: url(https://68.media.tumblr.com/0851d0d90234206221ca043dcd7cde16/tumblr_orr0hn9zeY1qmn0vjo3_1280.jpg);
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}
 
+hr {
+  border: 0.5px solid darkgrey;
+  height: 0px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0px auto;
+}
+
+.kasten {
+  background-color: white;
+  padding: 15px 0px 30px 0px;
+  margin: 50px;
+  position: relative;
+}
+
+#laura {
+  width: 50%;
+}
+
+a {
+text-decoration: none;
 }
 
 p {
   font-family:"American Typewriter", Futura,  sans-serif;
   text-align: center;
-  margin: 50px 0 50px 0;
-  border-bottom:1px solid #eee;
-  clear: none;
-  display: inline;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  ::-webkit-scrollbar-thumb:vertical {
-background-color:#000;
-height:100px;
-}
-::-webkit-scrollbar-thumb:horizontal {
-background-color:#000;
-height:10px !important;
-}
-::-webkit-scrollbar {
-height:10px;
-width:7px;
-background-color:{color: white};
 
 }
