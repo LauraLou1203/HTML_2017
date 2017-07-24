@@ -2,10 +2,10 @@
   text-decoration: underline;
 }
 
-.clickme, .hometitle {
+.hometitle, a:hover{
   color: rgb(224, 184, 184);
 }
-body, a {
+body, a, p {
   font-family:"American Typewriter", Futura,  sans-serif;
   font-size: 16px;
   color: darkgrey;
@@ -32,7 +32,7 @@ hr {
 }
 
 .kasten {
-  background-color: white;
+  background-color: rgba(255,255,255,0.8);
   padding: 15px 0px 30px 0px;
   margin: 30px;
   position: relative;
